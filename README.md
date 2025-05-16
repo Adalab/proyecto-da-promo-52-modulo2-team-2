@@ -6,20 +6,25 @@
  ingresos y pueden permitirse este tipo de eventos. Para la empresa es un target interesante de atraer.
  Desean desarrollar una gira de grandes eventos para atraerlos en masa. 
 
- Este proyecto implementa un sistema basico de consultas, que permite analizar la evolucón de los géneros músicales en el período e identificar cuales son los artistas y canciones mas populares en 
- los diferentes generos durante el rango de años definido.
+ Este proyecto implementa un sistema basico de consultas, que permite analizar la evolucón de los géneros músicales en el período e identificar cuales son los artistas y canciones mas populares en los diferentes generos durante el rango de años definido.
+
+## Ejemplo de Uso
+
+El sistema permite extraer artistas de distintos años y géneros
+
+- Extraer características de los artistas en distintas plataformas
+- Crear una base de datos en la que se pueda almacenar los datos extraídos
+- Analizar los resultados de los datos
 
 ## Como arrancar el proyecto
 El proyecto inicia con un [notebook](PROYECTO_MOD2_SPOTIFY.ipynb) desde la fase de extraccion de datos 
 
-Comienza con una función que incluye un bucle for para la extracción de datos en ambas plataformas.
+Comienza con una función que incluye un bucle for para la extracción de datos en ambas plataformas
 
+### Fase de extracción de datos
 
-
-### Fase de extraccion de datos
-
-**Extraccion de datos de las Apis Spotify y Last.fm
-Para acceder a la extracción de datos son necesarias credenciales de las Apis.
+**Extracción de datos de las Apis Spotify y Last.fm
+Para acceder a la extracción de datos son necesarias credenciales de las Apis
 
 Ejemplo introducción credenciales:
 
@@ -32,34 +37,55 @@ API_KEY = ' # INTRODUCE con tu clave de API válida de Last.fm'
 BASE_URL = ' # URL base de la API de Last.fm'  
 ```
 
-- **Antes de la fase de inserción de datos visualizamos la información extraída a través de un DataFrame.
+- **Antes de la fase de inserción de datos visualizamos la información extraída a través de un DataFrame
+- **Se ha descargado la información en CSV y XLSM
   
-### Fase de insercion de datos
+### Fase de inserción de datos
 
-- **Guardar la informacion recopilada en una base de datos
-- **Crear el modelo de proyecto de la base de datos
-- **Insertar datos
-- **Limpiar los datos
+- **Manejar la información obtenida en los DF
+- **Limpiar los datos en VSCode (Python)
+- **Crear la base de datos con sus tablas y relaciones En MYSQL Workbench.
+- **Insertar datos desde VsCode con biblioteca "MySQL.connector"
+- **Hemos limpiado la columna de la fecha, dejando solo el año (MySQL Workbench)
+- **Se han eliminado columnas innecesarias (MySQL Workbench)
+- **Se han realizado las querys para obtener la información necesaria
 
-   ##### ** ```En MYSQL Workbench``` 
+
+### Fase de análisis de la información recopilada
+
+- **Análisis de los resultados obtenidos
+- **Redacción de informe con descripción de conclusiones
+- **Presentación de resultados
+
+### Herramientas utilizadas:
+
+- **GitHub
+- **VsCode
+- **Jupyter Notebook
+- **Python
+- **Bibliotecas Python: Resquest, Spotipy, Pandas, MySQL.Connector
+- **MySQL Workbench
+- **Office: Excel, Word
+- **Canva
+
+### Metodología SCRUM
+
+- **Scrum Master: Aida Bau
+- **Creación de Backlog y actualizaciones diarias
+- **Definición de Hitos
+- **Dailys
+- **Sprint reviews
+- **Feedbacks de mejora
   
-   - **Crear la base de datos con sus tablas y relaciones
-   - **Hemos limpiado la columna de la fecha, dejando solo el año.
-   - **Se han eliminado columnas innecesarias.
-   - ** 
+### Autoras: :tecnóloga:
+
+- **Nombres**: Irantzu Urkiola, Inés García, Aura Candela, Aida Bau
+- **Curso**: Adalab - Data Analyst (Promo 52 - Julia Salander)
+- **Módulo**: 2 - Bases de datos y SQL
 
 
-### Fase de analisis de la informacion recopilada
-- **Analisis de los resultados
-- **Presentacion
-  
 
-## Estructura de Datos
-- **Archivos**:Csv
-- **Base de datos**:MYSQL Workbench
 
-## Ejemplo de Uso
-El sistema permite extraer artistas de distintos años y generos
-- Extraer caracteristicas de los artistas en distintas plataformas
-- Crear una base de datos en la que se pueda almacenar los datos extraidos
-- Analizar los resultados de los datos
+
+
+
