@@ -42,40 +42,40 @@ BASE_URL = ' # URL base de la API de Last.fm'
   
 ### Fase de inserción de datos
 
-- **Manejar la información obtenida en los DF
-- **Limpiar los datos en VSCode (Python)
-- **Crear la base de datos con sus tablas y relaciones En MYSQL Workbench.
-- **Insertar datos desde VsCode con biblioteca "MySQL.connector"
-- **Hemos limpiado la columna de la fecha, dejando solo el año (MySQL Workbench)
-- **Se han eliminado columnas innecesarias (MySQL Workbench)
-- **Se han realizado las querys para obtener la información necesaria
+- **Manejar la información obtenida en los DF**
+- **Limpiar los datos en VSCode (Python)**
+- **Crear la base de datos con sus tablas y relaciones En MYSQL Workbench.**
+- **Insertar datos desde VsCode con biblioteca "MySQL.connector"**
+- **Hemos limpiado la columna de la fecha, dejando solo el año (MySQL Workbench)**
+- **Se han eliminado columnas innecesarias (MySQL Workbench)**
+- **Se han realizado las querys para obtener la información necesaria**
 
 
 ### Fase de análisis de la información recopilada
 
-- **Análisis de los resultados obtenidos
-- **Redacción de informe con descripción de conclusiones
-- **Presentación de resultados
+- **Análisis de los resultados obtenidos**
+- **Redacción de informe con descripción de conclusiones**
+- **Presentación de resultados**
 
 ### Herramientas utilizadas:
 
-- **GitHub
-- **VsCode
-- **Jupyter Notebook
-- **Python
-- **Bibliotecas Python: Resquest, Spotipy, Pandas, MySQL.Connector
-- **MySQL Workbench
-- **Office: Excel, Word
-- **Canva
+- **GitHub**
+- **VsCode**
+- **Jupyter Notebook**
+- **Python**
+- **Bibliotecas Python: Resquest, Spotipy, Pandas, MySQL.Connector**
+- **MySQL Workbench**
+- **Office: Excel, Word**
+- **Canva**
 
 ### Metodología SCRUM
 
-- **Scrum Master: Aida Bau
-- **Creación de Backlog y actualizaciones diarias
-- **Definición de Hitos
-- **Dailys
-- **Sprint reviews
-- **Feedbacks de mejora
+- **Scrum Master: Aida Bau**
+- **Creación de Backlog y actualizaciones diarias**
+- **Definición de Hitos**
+- **Dailys**
+- **Sprint reviews**
+- **Feedbacks de mejora**
   
 ### Autoras: :tecnóloga:
 
